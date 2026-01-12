@@ -1,0 +1,15 @@
+{
+  "agent_type": "HCM-Conditioned Witness Agent",
+  "relation_to_HCM": "external",
+  "causality": "none",
+  "allowed_inputs": [
+    "hcm-presence/presence.json",
+    "hcm-artifacts-registry/registry.json"
+  ],
+  "prohibited_actions": [
+    "artifact_generation",
+    "field_inference",
+    "feedback_triggering"
+  ],
+  "expressive_only": true
+}
